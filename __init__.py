@@ -25,6 +25,7 @@ NODE_CLASS_MAPPINGS = {
     "ETN_KritaMaskLayer": krita.KritaMaskLayer,
     "ETN_Parameter": krita.Parameter,
     "ETN_KritaStyle": krita.KritaStyle,
+    "ETN_SendMessageWebSocket": nodes.SendMessageWebSocket,
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
     "ETN_LoadImageBase64": "Load Image (Base64)",
@@ -51,5 +52,6 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "ETN_KritaMaskLayer": "Krita Mask Layer",
     "ETN_Parameter": "Parameter",
     "ETN_KritaStyle": "Krita Style",
+    "ETN_SendMessageWebSocket": "Send Message (WebSocket)",
 }
 WEB_DIRECTORY = "./js"
